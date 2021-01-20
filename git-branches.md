@@ -1,6 +1,6 @@
 ### What is a commit?
 
-- Git can be thought of as a timeline managment utility ⏳
+- Git can be thought of as a timeline management utility ⏳
 - A **commit** is a snapshot 📸 of what the project looked like when it was saved at a certain point in time.
   - Every commit has a **SHA**
   - Every commit has the changes that were made in that commit.  `git show` to see those changes. 
@@ -26,7 +26,7 @@
 - nodes with pointers pointing to another node in a direction
 - A commit point to their parent commit
 
-![singly linked list](https://github.com/mandysGit/git-branches/blob/main/singly-linked-list.jpg style="height: 100px; width:100px;)
+![singly linked list](https://github.com/mandysGit/git-branches/blob/main/singly-linked-list.jpg)
 
 - linked lists are a **conceptual** data structure
 
