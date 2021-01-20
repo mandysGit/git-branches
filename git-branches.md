@@ -1,4 +1,4 @@
-####What is a commit?
+### What is a commit?
 
 - Git can be thought of as a timeline managment utility ⏳
 - A **commit** is a snapshot 📸 of what the project looked like when it was saved at a certain point in time.
@@ -8,7 +8,7 @@
 
 
 
-####What is a SHA?
+### What is a SHA?
 
 - Stands for Secure Hash Algorithm  🔒
 - it looks something like, ` e2675e151a18082b19f00461e9b581b6b2dd2937`
@@ -17,15 +17,16 @@
 
 
 
-#### Commits are in a linked list data structure.
+### Commits are in a linked list data structure.
 
 
 
-####What is a linked list?
+### What is a linked list?
 
 - nodes with pointers pointing to another node in a direction
 - A commit point to their parent commit
 
+![singly linked list](https://github.com/mandysGit/git-branches/blob/main/singly-linked-list.jpg style="height: 100px; width:100px;)
 
 - linked lists are a **conceptual** data structure
 
@@ -33,21 +34,21 @@
 
   
 
-####Benefits of linked lists for memory?
+### Benefits of linked lists for memory?
 
 Linked lists are memory efficient. We can compare them to Arrays. Arrays take up a chunk of fixed space, whereas linked lists are more free flowing and will take up space where there's space available.
 
 **Array:**
 
-
+![array](https://github.com/mandysGit/git-branches/blob/main/array.jpg)
 
 **Linked list:**
 
+![linked list](https://github.com/mandysGit/git-branches/blob/main/linked-list.jpg)
 
 
 
-
-####What is a Branch?
+### What is a Branch?
 
 - A branch pointer to a commit SHA
 
@@ -63,7 +64,7 @@ Linked lists are memory efficient. We can compare them to Arrays. Arrays take up
 
   
 
-#### Git Branching commands
+### Git Branching commands
 
 [Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
@@ -78,7 +79,7 @@ Linked lists are memory efficient. We can compare them to Arrays. Arrays take up
 
 
 
-####How to push your branch to remote
+### How to push your branch to remote
 
 - `git push` 
 - You may need to add a remote upstream
@@ -86,14 +87,14 @@ Linked lists are memory efficient. We can compare them to Arrays. Arrays take up
 
 
 
-#### DEMO
+### DEMO
 
 - How to open a PR
 - How to do a code review, approve, and merge to main in Github
 
 
 
-####How to update your branch with main
+### How to update your branch with main
 
 ❗️**Important**: Before pushing your branch to remote/origin, pull main, and rebase your branch with main. You should do this if origin main has been updated/diverged from your local version of main while you were working on your feature branch. Ask me if you have any questions about this! Have fun! 🥳
 
